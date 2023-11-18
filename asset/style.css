@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;    
+}
+
+.overflow {
+    margin-bottom: 2rem;
+    overflow-y: auto;
+}
+/* Header */
+#header .top-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 100%;
+    background-color: #8A7350;
+}
+
+#header .text {
+    color: #fff;
+    font-size: 14px;
+}
+
+#header .menu-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    background-color: #181818;
+    color: #fff;
+}
+
+.menu-header .menu-left {
+    display: flex;   
+}
+
+.menu-header .logo-header {
+    width: 32px;
+    height: 32px;
+}
+
+.menu-header .logo-header img{
+    width: 100%;
+    background-color: #181818;
+    
+}
+
+.menu-header .menu ul{
+    display: flex;
+    line-height: 64px;
+    cursor: pointer;
+}
+
+.menu-header .menu li {
+    padding: 0 16px;
+    list-style: none;
+}
+
+.menu-header .menu-right {
+    display: flex;
+}
+
+.menu-header .search {
+    display: flex;
+    border: #676D75 solid 2px;
+    border-radius: 3px;
+    padding: 13px 16px;
+    cursor: pointer;
+}
+
+.menu-header .search:hover {
+    border-color: #fff;
+}
+
+.menu-header .search i {
+    margin-right: 8px;
+}
+
+.menu-header .icon-header {
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.menu-header .icon-header:hover {
+    color: #fff;
+
+}
+
+.menu-header .icon-header i {
+    margin: 6px;
+}
+
+/* Body */
+#main {
+    width: 100%;
+}
+
+#main .top-main {
+    cursor: pointer;
+}
+
+.top-main .top-main-img {
+    width: 100%;
+}
+
+#main .text-body {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin: 52px 0;
+}
+
+#main .img-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 190px;
+    overflow-x: auto;
+    cursor: pointer;
+}
+
+.lifestyle-body .img-lifestyle {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.lifestyle-img1 {
+    margin-bottom: 1px;
+}
+
+/* Product */
+.text-product {
+    margin:  36px 0 36px 204px;
+    font-size: 26px;
+}
+
+.product{
+    display: flex;
+    max-width: 1920px;
+    margin: 0 204px;
+    list-style: none;
+}
+
+.product-item {
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+.product-img {
+    margin-bottom: 2rem;
+    width: 352px;
+    max-height: 352px;
+    overflow: hidden ;
+}
+
+.product-img img {
+    width:  100%;
+    display: block;
+    transition: 0.2s ease;
+    
+}
+
+.product-img img:hover {
+    transform: scale(1.6);
+    transition: all 0.5s ease;
+}
+
+.product-item:last-child {
+    margin-right: 0;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item-info-right {
+    padding-right: 1.25rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: left;
+    font-weight: 700;
+}
+
+.product-item-info-left-price {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.product-item-info-left-new {
+    flex: 1;
+    color: #BA2B1F;
+}
+
+.product-item-info-left-old {
+    text-decoration: line-through;
+    color: #969696;
+    font-weight: 300;
+}
+
+/* Collect */
+
+.img-collect-item {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+}
+
+.btn-collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 123px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    margin: 354px 0 0 64px;
+    cursor: pointer;
+}
+
+.img-collection {
+    position: relative;
+    cursor: pointer;
+}
+
+.text-big-collection {
+    position: absolute;
+    color: #fff;
+    font-size: 42px;
+    margin: 261px 0 0 64px;
+    cursor: auto;
+}
+
+.text-small-collection {
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 308px 0 0 64px;
+    cursor: auto;
+}
+
